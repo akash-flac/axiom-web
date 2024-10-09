@@ -29,7 +29,7 @@ const about = () => {
                     <div className="flex w-full sm:flex-row flex-col justify-center items-center mt-10">
                         <div
                             className="flex flex-row justify-center items-center py-3 px-6 rounded-full cursor-pointer bg-[#2190ff] min-h-[48px]">
-                            <button type="button"
+                            <button type="button" onClick={()=>window.open("https://www.instagram.com/axiomnsut/")}
                                     className="font-poppins font-semibold text-[14px] leading-[16px] text-white">
                                 Learn More
                             </button>

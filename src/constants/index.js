@@ -14,17 +14,17 @@ export const exploreWorlds = [
     {
         id: 'world-3',
         imgUrl: {planetc},
-        title: '2 Truth 1 lie',
+        title: '2 Truths 1 Lie',
     },
     {
         id: 'world-4',
         imgUrl: {planetd},
-        title: 'Weapons Master',
+        title: 'Scribble and Scramble',
     },
     {
         id: 'world-5',
         imgUrl: {planete},
-        title: 'Survive The Apocalypse',
+        title: 'Wheel Of Doom',
     },
 ];
 export const feedback = [
@@ -32,14 +32,14 @@ export const feedback = [
         id: "feedback-2",
         content:
             "The only thing we have to fear is fear itself.",
-        name: "Divyanshu",
+        name: "Akash Maurya",
         title: "Vice President",
         img: people02,
     }, {
         id: "feedback-1",
         content:
             "Life is 10% what happens to us and 90% how we react to it.",
-        name: "Vehu",
+        name: "Saumya Chaturvedi",
         title: "President",
         img: people01,
     },

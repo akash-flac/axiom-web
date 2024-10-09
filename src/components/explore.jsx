@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import styles, { layout } from '../style';
-import { exploreWorlds } from '../constants';
+import styles, { layout } from '../style.js';
+import { exploreWorlds } from '../constants/index.js';
 import { ExploreCard } from './ExploreCard.jsx';
 
 const Explore = () => {

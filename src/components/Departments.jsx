@@ -14,85 +14,85 @@ const Departments = () => {
             {/*    </div>*/}
             {/*</div>*/}
             <div className="popular-articles">
+
                 <div className="popular-header z-[3]">
                     <h2 className="text-white z-[3] text-[32.4px] mb-[1.5rem] font-bold leading-[1.1]">More <br/>Than <br/> Philosophical Society </h2>
-                    <p className="text-white z-[3]">Axiom<br/>
+                    <p className="text-gray-300 z-[3]">Axiom<br/>
                         <a className="font-normal text-xs sm:text-sm text-[#0089c7]" href="#">NSUT</a>
                     </p>
                 </div>
+
                 <div className="mini-card-grid">
+
                     <article className="mini-card">
-                        <strong>Axiom</strong>
+                        <strong className='text-rose-500'>Axiom</strong>
                         <h3 className="mini-card-title">
                             <a href="#"> Event Managment </a>
                         </h3>
                         <div className="tags">
-                            <a href="#">animation</a>
-                            <a href="#">grid</a>
-                            <a href="">grid-template-columns</a>
-                            <a href="#">grid-template-rows</a></div>
+                            <a href="#">Responsible for managing events</a>
+                            </div>
                         <div className="author-row">
-                            <a href="https://www.whatsapp.com">
+                            <a href="https://www.instagram.com/axiomnsut/">
                                 <img alt={' '} src={whatsapp} className='avatar' height='80' width='80' loading='lazy'
                                      decoding='async'/>
                             </a>
-                            <a className="author-name" href="#">Whatsapp </a>
+                            <a className="author-name" href="#">Dev Vats </a>
                         </div>
                     </article>
+
                     <article className="mini-card">
-                    <strong>Axiom</strong>
+                    <strong className='text-rose-500'>Axiom</strong>
                         <h3 className="mini-card-title">
                             <a href="#">Tech Team</a>
                         </h3>
                         <div className="tags">
-                            <a href="#" rel="tag">:Has</a></div>
+                            <a href="#" rel="tag">Building the tech prowess of Axiom</a></div>
                         <div className="author-row">
-                            <a href="https://www.whatsapp.com"><img alt='' src={whatsapp}
+                            <a href="https://www.instagram.com/axiomnsut/"><img alt='' src={whatsapp}
                                                                     className='avatar avatar-80 photo' height='80'
                                                                     width='80' loading='lazy' decoding='async'/></a>
-                            <a className="author-name" href="#">Whatsapp </a>
+                            <a className="author-name" href="#">Kushagra Lakhwani </a>
                         </div>
                     </article>
+
                     <article className="mini-card">
-                    <strong>Axiom</strong>
+                    <strong className='text-rose-500'>Axiom</strong>
                         <h3 className="mini-card-title">
                             <a href="#">Graphic Designing </a>
                         </h3>
                         <div className="tags">
-                            <a href="#" rel="tag">React</a></div>
+                            <a href="#" rel="tag">Desiging the aesthetic of Axiom</a></div>
                         <div className="author-row">
-                            <a href="https://www.whatsapp.com"><img alt='' src={whatsapp}
+                            <a href="https://www.instagram.com/axiomnsut/"><img alt='' src={whatsapp}
                                                                     className='avatar avatar-80 photo' height='80'
                                                                     width='80' loading='lazy' decoding='async'/></a>
-                            <a className="author-name" href="#">Whatsapp </a>
+                            <a className="author-name" href="#">Nikhil </a>
                         </div>
                     </article>
+
                     <article className="mini-card">
-                    <strong>Axiom</strong>
+                    <strong className='text-rose-500'>Axiom</strong>
                         <h3 className="mini-card-title">
                             <a href="#">Content writing </a>
                         </h3>
                         <div className="tags">
-                            <a href="https://css-tricks.com/tag/has/" rel="tag">:has</a> <a
-                            href="https://css-tricks.com/tag/is/" rel="tag">:is</a> <a
-                            href="https://css-tricks.com/tag/where/" rel="tag">:where</a> <a
-                            href="https://css-tricks.com/tag/specificity/" rel="tag">specificity</a></div>
+                            <a href="https://instagram.com/axiomnsut/" rel="tag">The writers room of Axiom</a></div>
                         <div className="author-row">
-                            <a href="https://css-tricks.com/author/geoffgraham/"
-                               aria-label="Author page of Geoff Graham">
+                            <a href="https://instagram.com/axiomnsut/">
                                 <img alt={' '}
                                      src='https://secure.gravatar.com/avatar/1a1b5ca4b139c0c8caaea26ef437d943?s=80&#038;d=retro&#038;r=pg'
                                      className='avatar avatar-80 photo' height='80' width='80' loading='lazy'
                                      decoding='async'/>
                             </a>
 
-                            <a className="author-name" href="https://css-tricks.com/author/geoffgraham/">
-                                Geoff Graham </a>
+                            <a className="author-name" href="https://instagram.com/axiomnsut/">
+                                Shrey Paul </a>
                         </div>
-
                     </article>
+
                     <article className="mini-card">
-                    <strong>Axiom</strong>
+                    <strong className='text-rose-500'>Axiom</strong>
                         <h3 className="mini-card-title">
                             <a href="https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/">
                                 Video editing </a>
@@ -118,7 +118,7 @@ const Departments = () => {
 
                     </article>
                     <article className="mini-card">
-                    <strong>Axiom</strong>
+                    <strong className='text-rose-500'>Axiom</strong>
 
                         <h3 className="mini-card-title">
                             <a href="https://css-tricks.com/faking-min-width-on-a-table-column/">
@@ -146,9 +146,9 @@ const Departments = () => {
                     </article>
                     <article className="mini-card">
                         <time dateTime="2023-01-27" title="Originally published Jan 27, 2023">
-                            <strong>
+                            <strong >
                                 Axiom
-                            </strong>
+                            </strong><br/>
                             on
                             Jan 27, 2023
                         </time>
@@ -182,14 +182,14 @@ const Departments = () => {
                         <time dateTime="2018-12-18" title="Originally published Dec 18, 2018">
                             <strong>
                                 Axiom
-                            </strong>
+                            </strong><br/>
                             on
                             Dec 18, 2018
                         </time>
 
                         <h3 className="mini-card-title">
                             <a href="https://css-tricks.com/ease-y-breezy-a-primer-on-easing-functions/">
-                                sponsorship </a>
+                                Sponsorship </a>
                         </h3>
 
 
