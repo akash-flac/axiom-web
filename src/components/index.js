@@ -4,7 +4,7 @@ import Testimonials from "./Testimonials";
 import Home from "./Home.jsx";
 import About from "./About.jsx"
 import Departments from "./Departments.jsx"
-import Explore from "./Explore.jsx";
+import Explore from "./Explore1.jsx"; 
 
 export {
     Explore,
